@@ -2,9 +2,11 @@ package com.gitlab.aakumykov.caoc_firebasefirestore_conflict;
 
 import android.app.Application;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class MyApp extends Application {
 
-    private AuthSingleton mDatabaseSingleton;
+    private FirebaseFirestore mFirebaseFirestore;
 
     @Override
     public void onCreate() {
@@ -13,6 +15,7 @@ public class MyApp extends Application {
         // With manual initialization also not works
         // CaocConfig.Builder.create().apply();
 
-        mDatabaseSingleton = AuthSingleton.getInstance();
+        // Comment following line to brings CAOC works again.
+        mFirebaseFirestore = FirebaseFirestore.getInstance();
     }
 }
