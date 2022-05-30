@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276218448055",
+    "project_id": "caoc-9ff37",
+    "storage_bucket": "caoc-9ff37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276218448055:android:0f71a56272f00aa3f4a532",
+        "android_client_info": {
+          "package_name": "com.gitlab.aakumykov.caoc_firebasefirestore_conflict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276218448055-g46ote7tc5caeggs58g9v1db9e9dvvor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9n03BquLMQLie6wtTbjsF7UaVQzXxzHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276218448055-g46ote7tc5caeggs58g9v1db9e9dvvor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,6 +2,7 @@ package com.gitlab.aakumykov.caoc_firebasefirestore_conflict;
 
 import android.app.Application;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MyApp extends Application {
@@ -14,6 +15,8 @@ public class MyApp extends Application {
 
         // With manual initialization also not works
         // CaocConfig.Builder.create().apply();
+
+        FirebaseApp.initializeApp(this);
 
         // Comment following line to brings CAOC works again.
         mFirebaseFirestore = FirebaseFirestore.getInstance();

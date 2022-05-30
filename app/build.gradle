@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -42,6 +44,6 @@ dependencies {
     implementation 'cat.ereza:customactivityoncrash:2.3.0'
 
     // Firebase Firestore
-    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
     implementation 'com.google.firebase:firebase-firestore'
 }
